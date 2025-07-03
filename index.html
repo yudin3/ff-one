@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>FF One</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="script/script.js" defer></script>
+</head>
+<body>
+  <section class="call-request">
+    <div class="call-request__container-opacity">
+    </div>
+    <div class="call-request__container-content">
+      <div class="call-request__header">
+        <h2 class="title call-request__title">Напишите свои данные</h2>
+      </div>
+      <div class="call-request__text">
+        <span>Чтобы наш менеджер смог с Вами связаться</span>
+      </div>
+      <form action="" class="call-request__form" method="post">
+        <input type="text" class="call-request__input" name="name" placeholder="Ваше имя"></input>
+        <input type="tel" class="call-request__input" name="phone" placeholder="Телефон"></input>
+        <button type="submit" class="button call-request__button">Отправить запрос</button>
+      </form>
+    </div>
+  </section>
+  <header class="header">
+    <div class="main-container header__container">
+      <div class="header__row">
+        <div class="header__contacts">
+          <div class="header__contacts-item">
+            <img src="images/clock.png" class="header__icon">
+            <span>Пн-Вс 09:00-18:00</span>
+          </div>
+          <div class="header__contacts-item">
+            <img src="images/mail.png" class="header__icon">
+            <a href="mailto:info@ff-one.ru" class="header__contacts-link">info@ff-one.ru</a>
+          </div>
+        </div>
+        <div class="header__contacts">
+          <div class="header__contacts-item">
+            <a href="https://t.me/fulfilment_one" class="header__contacts-link header__social-link"><img src="images/telegram.svg" class="header__icon"></img></a>
+            <a href="https://wa.me/89017198217" class="header__contacts-link header__social-link"><img src="images/whatsapp.svg" class="header__icon"></img></a>
+          </div>
+          <div class="header__contacts-item">
+            <img src="images/phone.png" class="header__icon">
+            <a href="tel:+74991108857" class="header__contacts-link">+7 (499) 110-88-57</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__row">
+        <div class="header__title">
+          <img src="images/logo.png" alt="логотип FF One" class="header__logo"></img>
+          <h1 class="title title_s"><span class="text_light-blue">FULFILMENT</span> <span class="text_dark-blue">ONE</span></h1>
+        </div>
+        <nav class="header__menu">
+          <a href="#fulfilment" class="header__menu-item menu__item">Фулфилмент</a>
+          <a href="#calculation" class="header__menu-item menu__item">Рассчитать стоимость</a>
+          <a href="#tariffs" class="header__menu-item menu__item">Тарифы</a>
+          <a href="#questions" class="header__menu-item menu__item">Вопросы</a>
+          <a href="#contacts" class="header__menu-item menu__item">Контакты</a>
+        </nav>
+        <button class="button header__button button__call-request">Заказать звонок</button>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="main-container banner-container">
+      <div class="banner__content">
+          <h2 class="title banner__title">Фулфилмент для <span class="text_light-blue">маркетплейсов</span> в Москве</h2>
+          <div class="banner__buttons-container">
+            <button class="button banner__button button__call-request">Получить консультацию</button>
+            <button class="button button-reversed banner__button banner__button-link"><a class="banner__link" href="#tariffs">Смотреть тарифы</a></button>
+          </div>
+      </div>
+      <div class="banner__tags">
+        <div class="banner__tags-item">
+          <img class="banner__icon" src="images/tag_icon_1.png" alt="Тег иконка 1"></img>
+          <div class="banner__tags-text">
+            <span><span class="text_gray-bold">Более 7 лет</span> на маркетплейсах</span>
+          </div>
+        </div>
+        <div class="banner__tags-item">
+          <img class="banner__icon" src="images/tag_icon_2.png" alt="Тег иконка 2"></img>
+          <div class="banner__tags-text">
+            <span>Работаем по системе <span class="text_gray-bold">FBS и FBO</span></span>
+          </div>
+        </div>
+        <div class="banner__tags-item">
+          <img class="banner__icon" src="images/tag_icon_3.png" alt="Тег иконка 3"></img>
+          <div class="banner__tags-text">
+            <span><span class="text_gray-bold">Прозрачные тарифы</span> и условия</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="marquee">
+    <div class="marquee__item">
+      <img class="marquee__image" src="images/vector.svg"></img><span>АКЦИЯ Разгрузо-погрузочные работы БЕСПЛАТНО</span>
+    </div>
+    <div class="marquee__item">
+      <img class="marquee__image" src="images/vector.svg"></img><span>АКЦИЯ Разгрузо-погрузочные работы БЕСПЛАТНО</span>
+    </div>
+    <div class="marquee__item">
+      <img class="marquee__image" src="images/vector.svg"></img><span>АКЦИЯ Разгрузо-погрузочные работы БЕСПЛАТНО</span>
+    </div>
+    <div class="marquee__item">
+      <img class="marquee__image" src="images/vector.svg"></img><span>АКЦИЯ Разгрузо-погрузочные работы БЕСПЛАТНО</span>
+    </div>
+  </div>
+  <section id="fulfilment" class="fulfilment">
+    <div class="main-container fulfilment-container">
+     <h2 class="title fulfilment__title title_m">Что такое фулфилмент и как мы упрощаем вашу работу?</h2>
+     <div class="fulfilment__text">
+       <span>Фулфилмент (от англ. fulfilment/fulfillment) – это <span class="text_bold">комплексное решение для селлеров на маркетплейсах</span> и владельцев интернет-магазинов. Простыми словами это <span class="text_bold">передача всей складской логистики на аутсорсинг</span> надежному фулфилмент-оператору. Мы берем на себя всю операционную рутину, чтобы Вы могли <span class="text_bold">не отвлекаться на аренду склада, персонал и обработку заказов</span>.</span>
+     </div>
+     <h3 class="title fulfilment__title">Фулфилмент-сервис возьмет на себя полный цикл задач:</h3>
+     <ul class="fulfilment__list">
+       <li class="fulfilment__list-item"><span class="text_bold">Приемку</span> товаров от поставщиков;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Проверку</span> на соответствие и выявление брака;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Надежную упаковку</span> согласно требованиям площадок;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Нанесение маркировки</span> (штрихкоды, этикетки);</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Комплектацию</span> заказов;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Предоставление отчетов</span> о движении товара;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Работу по прозрачному договору</span> с фиксированными тарифами;</li>
+       <li class="fulfilment__list-item"><span class="text_bold">Организацию доставки</span> на склады маркетплейсов по схемам FBO/FBW и FBS/realFBS.</li>
+     </ul>
+     <div class="fulfilment__text">
+       <span>Мы предлагаем услуги фулфилмента <span class="text_bold">"под ключ"</span> – от приемки до отправки – для вашего бизнеса в Москве и по всей Московской области</span>
+     </div>
+    </div>
+  </section>
+  <section class="markets section">
+    <div class="main-container markets__container">
+      <h2 class="title section__title">Работаем со всеми популярными площадками</h2>
+      <div class="markets__content">
+        <div class="markets__item">
+          <img src="images/wb.png" alt="лого WB" class="markets__image"></img>
+          <h3 class="title">Фулфилмент для Wildberries</h3>
+        </div>
+        <div class="markets__item">
+          <img src="images/ozon.png" alt="лого Ozon" class="markets__image"></img>
+          <h3 class="title">Фулфилмент для Ozon</h3>
+        </div>
+        <div class="markets__item">
+          <img src="images/yandex.png" alt="лого Яндекс Маркета" class="markets__image"></img>
+          <h3 class="title">Фулфилмент для Яндекс Маркет</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="operation section">
+    <div class="main-container">
+      <h2 class="title section__title title_m">Как мы работаем</h2>
+      <div class="operation__content">
+        <div class="operation__item section__item operation_step1">
+          <img src="images/operation_icon_step_1.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Заберём</h3>
+          <div class="section__item-text operation__text">
+            <span>товар в Москве</span>
+          </div>
+        </div>
+        <div class="operation__item section__item operation_step2">
+          <img src="images/operation_icon_step_2.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Проверим</h3>
+          <div class="section__item-text operation__text">
+            <span>и рассортируем</span>
+          </div>
+        </div>
+        <div class="operation__item section__item operation_step3">
+          <img src="images/operation_icon_step_3.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Упакуем</h3>
+          <div class="section__item-text operation__text">
+            <span>и промаркируем</span>
+          </div>
+        </div>
+        <div class="operation__item section__item operation_step4">
+          <img src="images/operation_icon_step_4.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Храним</h3>
+          <div class="section__item-text operation__text">
+            <span>бесплатно до 10 дней</span>
+          </div>
+        </div>
+        <div class="operation__item section__item operation__item-large operation_step5">
+          <img src="images/operation_icon_step_5.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Доставим</h3>
+          <div class="section__item-text operation__text">
+            <span>на склад маркетплейса</span>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="advantages section">
+    <div class="main-container">
+      <h2 class="title section__title title_m">Почему мы?</h2>
+      <div class="advantages__content">
+        <div class="advantages__item section__item advantages_1">
+          <img src="images\advantages__icon_1.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Опыт</h3>
+          <div class="section__item-text advantages__text">
+            <span>Более 100 тыс. обработанных заказов</span>
+          </div>
+        </div>
+        <div class="advantages__item section__item advantages_2">
+          <img src="images\advantages__icon_2.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Безопасность</h3>
+          <div class="section__item-text advantages__text">
+            <span>Территория находится под постоянным наблюдением</span>
+          </div>
+        </div>
+        <div class="advantages__item section__item advantages_3">
+          <img src="images\advantages__icon_3.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Поддержка</h3>
+          <div class="section__item-text advantages__text">
+            <span>Личный менеджер всегда на связи</span>
+          </div>
+        </div>
+        <div class="advantages__item section__item advantages_4">
+          <img src="images\advantages__icon_4.png" class="section__item-icon"></img>
+          <h3 class="title section__item-title title_s">Точность</h3>
+          <div class="section__item-text advantages__text">
+            <span>Следуем актуальным регламентам маркетплейсов</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services section">
+    <div class="main-container services__container">
+        <h2 class="title section__title title_m">Услуги</h2>
+        <div class="services__content">
+          <div class="services__item section__item services_1">
+            <img src="images/services__icon_1.png" class="section__item-icon"></img>
+            <h3 class="title section__item-title title_s">Складские услуги</h3>
+            <div class="section__item-text advantages__text">
+              <span>Приёмка, сортировка, маркировка, упаковка, хранение</span>
+            </div>
+          </div>
+          <div class="services__item section__item services_2">
+            <img src="images/services__icon_2.png" class="section__item-icon"></img>
+            <h3 class="title section__item-title title_s">Доставка</h3>
+            <div class="section__item-text advantages__text">
+              <span>Регулярные отгрузки на склады маркетплейсов</span>
+            </div>
+          </div>
+          <div class="services__item section__item services_1">
+            <img src="images/services__icon_1.png" class="section__item-icon"></img>
+            <h3 class="title section__item-title title_s">Бонусы</h3>
+            <div class="section__item-text advantages__text">
+              <span>Бесплатное создание поставок и штрихкодов в лк
+
+
+              </span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="calculation" class="calculation section">
+    <div class="main-container">
+      <h2 class=" title calculation__title title_l">Оставьте заявку на предварительный расчет</h2>
+      <form class="calculation__form">
+        <div class="calculation__column calculation__column-left">
+          <div class="calculation__row">
+            <div class="calculation__input-item">
+              <h3 class="title calculation__input-title">Какая у вас категрия товаров?</h3>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Товары для дома" id="Товары для дома"></input>
+                <label for="Товары для дома" class="label calculation__label">Товары для дома</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Одежда" id="Одежда"></input>
+                <label for="Одежда" class="label calculation__label">Одежда</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Детские товары" id="Детские товары"></input>
+                <label for="Детские товары" class="label calculation__label">Детские товары</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Электроника" id="Электроника"></input>
+                <label for="Электроника" class="label calculation__label">Электроника</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Автотовары" id="Автотовары"></input>
+                <label for="Автотовары" class="label calculation__label">Автотовары</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="radio" name="category" value="Другое" id="Другое"></input>
+                <label for="Другое" class="label calculation__label">Другое</label>
+              </div>
+            </div>
+            <div class="calculation__input-item">
+              <h3 class="title calculation__input-title">На какие маркетплейсы будет поставка товаров?</h3>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="marketplace" value="Wildberries" id="Wildberries"></input>
+                <label for="Wildberries" class="label calculation__label">Wildberries</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="marketplace" value="Ozon" id="Ozon"></input>
+                <label for="Ozon" class="label calculation__label">Ozon</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="marketplace" value="Яндекс Маркет" id="Яндекс Маркет"></input>
+                <label for="Яндекс Маркет" class="label calculation__label">Яндекс Маркет</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="marketplace" value="Другой" id="Другой"></input>
+                <label for="Другой" class="label calculation__label">Другой</label>
+              </div>
+            </div>
+          </div>
+          <div class="calculation__row">
+            <div class="calculation__input-item">
+              <h3 class="title calculation__input-title">Какие услуги фулфилмента вам нужны?</h3>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Хранение" id="Хранение"></input>
+                <label for="Хранение" class="label calculation__label">Хранение</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Проверка на брак" id="Проверка на брак"></input>
+                <label for="Проверка на брак" class="label calculation__label">Проверка на брак</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Упаковка" id="Упаковка"></input>
+                <label for="Упаковка" class="label calculation__label">Упаковка</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Маркировка" id="Маркировка"></input>
+                <label for="Маркировка" class="label calculation__label">Маркировка</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Возврат брака" id="Возврат брака"></input>
+                <label for="Возврат брака" class="label calculation__label">Возврат брака</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Ремонт вещей" id="Ремонт вещей"></input>
+                <label for="Ремонт вещей" class="label calculation__label">Ремонт вещей</label>
+              </div>
+              <div class="calculation__input-container">
+                <input class="calculation__input" type="checkbox" name="services" value="Комплекс под ключ" id="Комплекс под ключ"></input>
+                <label for="Комплекс под ключ" class="label calculation__label">Комплекс под ключ</label>
+              </div>
+            </div>
+            <div class="calculation__input-item">
+              <h3 class="title calculation__input-title">Количество единиц?</h3>
+              <div class="calculation__select-container">
+                <select class="calculation__select" name="marketplace">
+                  <option>До 1.000</option>
+                  <option>От 1.000</option>
+                  <option>От 3.000</option>
+                  <option>От 5.000</option>
+                  <option>От 10.000</option>
+                  <option>Более 15.000</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculation__column calculation__column-right">
+          <div class="calculation__contact-container">
+            <h3 class="title calculation__contact-title">Оставьте свои контактные данные и наш менеджер перезвонит вам в ближайшее время!</h3>
+            <input type="text" class="calculation__contact-input" name="name" placeholder="Ваше имя"></input>
+            <input type="email" class="calculation__contact-input" name="email" placeholder="mail@example.com"></input>
+            <input type="tel" class="calculation__contact-input" name="phone" placeholder="Ваш номер телефона"></input>
+            <button type="submit" class="button calculation__contact-button">Отправить запрос</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="sales section">
+    <div class="main-container">
+      <h2 class="title section__title title_m">Всего 6 шагов до старта продаж с FF-One</h2>
+      <div class="sales__content">
+        <div class="sales__item section__item sales_1">
+          <div class="section__item-icon sales__icon"><span>01</span></div>
+          <h3 class="title section__item-title title_s">Заявка</h3>
+          <div class="section__item-text sales__text">
+            <span>Оставьте заявку или свяжитесь с нами</span>
+          </div>
+        </div>
+        <div class="sales__item section__item sales_2">
+          <div class="section__item-icon sales__icon"><span>02</span></div>
+          <h3 class="title section__item-title title_s">Согласование</h3>
+          <div class="section__item-text sales__text">
+            <span>Согласуйте ТЗ с менеджером</span>
+          </div>
+        </div>
+        <div class="sales__item section__item sales_3">
+          <div class="section__item-icon sales__icon"><span>03</span></div>
+          <h3 class="title section__item-title title_s">Договор</h3>
+          <div class="section__item-text sales__text">
+            <span>Составим договор со всеми условиями</span>
+          </div>
+        </div>
+        <div class="sales__item section__item sales_4">
+          <div class="section__item-icon sales__icon"><span>04</span></div>
+          <h3 class="title section__item-title title_s">Приёмка</h3>
+          <div class="section__item-text sales__text">
+            <span>Заберём или примем ваш товар</span>
+          </div>
+        </div>
+        <div class="sales__item section__item sales_5">
+          <div class="section__item-icon sales__icon"><span>05</span></div>
+          <h3 class="title section__item-title title_s">Подготовка</h3>
+          <div class="section__item-text sales__text">
+            <span>Упакуем и промаркируем по стандартам площадки</span>
+          </div>
+        </div>
+        <div class="sales__item section__item sales_6">
+          <div class="section__item-icon sales__icon"><span>06</span></div>
+          <h3 class="title section__item-title title_s">Доставка</h3>
+          <div class="section__item-text sales__text">
+            <span>Отправляем на склад маркетплейса</span>
+          </div>
+        </div>
+        <div class="sales__item sales__item-large section__item sales_7">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tariffs" class="tariffs">
+    <div class="main-container">
+      <h2 class="title section__title title_m">Тарифы</h2>
+      <div class="tariffs__switcers">
+      <label class="tariffs__label tariffs__main label-active" for="tariffs__main">Основные услуги</label>
+      <label class="tariffs__label tariffs__additional" for="tariffs__additional">Дополнительные услуги</label>
+      </div>
+        <input class="toggle-input tariffs__input-main" type="radio" name="tariffs" id="tariffs__main"   checked>
+        <div class="tariffs__content tariffs__content-main">
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Разгрузо-погрузочные работы</h3>
+            <div class="tariffs__item-text">
+              <span>короб <25 кг / мешок >30 кг / паллет</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>30 ₽ / 100 ₽ / 300 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Базовая обработка товара</h3>
+            <div class="tariffs__item-text">
+              <span>прием + пересчет + сортировка + визуальный осмотр упаковки товара</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>10 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Упаковка товара (за работу)</h3>
+            <div class="tariffs__item-text">
+              <span>в зип-лок / боп / впп / курьер пакет</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>6 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Маркировка</h3>
+            <div class="tariffs__item-text">
+              <span>на этикетке 58х40 / 75х120</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>5 ₽ / 7 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Проверка на брак</h3>
+            <div class="tariffs__item-text">
+              <span>визуальная / детальная <br>1 вещь / детальная 2 вещи</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>10 ₽ / 20 ₽ / 30 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-main">
+            <h3 class="title tariffs__item-title">Хранение</h3>
+            <div class="tariffs__item-text">
+              <span>короб 60х40х40 / паллет</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>50 ₽ / 100 ₽ за ед. (скидка за месяц)</span>
+            </div>
+          </div>
+        </div>
+        <input class="toggle-input tariffs__input-additional" type="radio" name="tariffs" id="tariffs__additional">
+        <div class="tariffs__content tariffs__content-additional">
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Забор и доставка груза</h3>
+            <div class="tariffs__item-text">
+              <span></span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>от 3 000 ₽</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Снятие обрешетки</h3>
+            <div class="tariffs__item-text">
+              <span>короб / палет</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>200 ₽ / 600 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Идентификация товара</h3>
+            <div class="tariffs__item-text">
+              <span>если нет фото товара</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>50 ₽ за SKU</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Снятие мерок</h3>
+            <div class="tariffs__item-text">
+              <span>упаковки / изделия — ДхШхВ</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>50 ₽ / 100 ₽ за SKU</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Бирки</h3>
+            <div class="tariffs__item-text">
+              <span>прикрепить вашу бирку / нашу</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>8 ₽ / 10 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Сборка комплектов</h3>
+            <div class="tariffs__item-text">
+              <span>до 3х шт / за каждый +1</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>7 ₽ / 2 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Вкладыш в упаковку</h3>
+            <div class="tariffs__item-text">
+              <span>подарок / визитка</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>5 ₽ за ед.</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Короб “под ключ”</h3>
+            <div class="tariffs__item-text">
+              <span>укладка товара + короб + маркировка</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>170 ₽ за короб 60х40х40</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Хранение товара</h3>
+            <div class="tariffs__item-text">
+              <span>время работы с ним + 5 дней</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>Бесплатно</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Убрать бирку с фабрики</h3>
+            <div class="tariffs__item-text">
+              <span>при навешивании новой бирки</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>Бесплатно</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Создание поставки</h3>
+            <div class="tariffs__item-text">
+              <span>в личном кабинете WB /Озон</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>Бесплатно</span>
+            </div>
+          </div>
+          <div class="tariffs__item tariffs__item-additional">
+            <h3 class="title tariffs__item-title">Паллет “под ключ”</h3>
+            <div class="tariffs__item-text">
+              <span>палет + сборка+ стретч + маркировка</span>
+            </div>
+            <div class="tariffs__item-cost">
+              <span>800 ₽</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="questions" class="questions">
+    <div class="main-container questions__container">
+      <h3 class="title section__title title_m">Вопросы - ответы</h3>
+      <div class="questions__item">
+        <div class="questions__header">
+          <div class="questions__question">
+            <span>На какие склады отгружаете?</span>
+          </div>
+          <label class="questions__label" for="question-1"><label>
+        </div>
+        <input class="toggle-input questions__input" type="checkbox" value="question-1" id="question-1">
+        <div class="questions__content">
+          <span>Мы отгружаем на самые популярные склады Вайлдбериз: Коледино, <br>Электросталь, Подольск, Казань, Тула (Алексин), Рязань (Краснодар).<br>Озон кросс-докинг: <br>СЦ Чермянская, Молжанино<br>Яндекс Маркет: <br>Софьино
+          </span>
+        </div>
+      </div>
+      <div class="questions__item">
+        <div class="questions__header">
+          <div class="questions__question">
+            <span>Как вы работаете? FBS,FBO,FBW,FBY?</span>
+          </div>
+          <label class="questions__label" for="question-2"><label>
+        </div>
+        <input class="toggle-input questions__input" type="checkbox" value="question-2" id="question-2">
+        <div class="questions__content">
+          <span>
+            В основном мы работаем по FBO,FBW,FBY. Это схема работы,<br>когда мы готовим Ваш товар и отгружаем его на склады Озон (FBO),<br>Вайлдбериз (FBW) и Яндекс Маркет (FBY).<br>Мы также работаем по FBS, но лучше уточнить<br>у менеджера по загруженности склада.
+          </span>
+        </div>
+      </div>
+      <div class="questions__item">
+        <div class="questions__header">
+          <div class="questions__question">
+            <span>С какими маркетплейсам работаете?</span>
+          </div>
+          <label class="questions__label" for="question-3"><label>
+        </div>
+        <input class="toggle-input questions__input" type="checkbox" value="question-3" id="question-3">
+        <div class="questions__content">
+          <span>
+            Наши основные маркетплейсы: Wildberries, Ozon и Яндекс Маркет.<br>Если нужен другой маркетплейс, то пожалуйста напишите нам.
+          </span>
+        </div>
+      </div>
+      <div class="questions__item">
+        <div class="questions__header">
+          <div class="questions__question">
+            <span>Мы можем работать, если я не в Москве или далеко?</span>
+          </div>
+          <label class="questions__label" for="question-4"><label>
+        </div>
+        <input class="toggle-input questions__input" type="checkbox" value="question-4" id="question-4">
+        <div class="questions__content">
+          <span>
+          Да, конечно. Мы предоставляем фото и видеоотчеты на всех этапах работы, поэтому у Вас не будет ощущения, что Вы находитесь далеко от Вашего товара. Также для удобства Ваш персональный менеджер всегда связи.
+          </span>
+        </div>
+      </div>
+      <div class="questions__item">
+        <div class="questions__header">
+          <div class="questions__question">
+            <span>Мне нужно привести товар на Ваш склад или Вы сами его заберете?</span>
+          </div>
+          <label class="questions__label" for="question-5"><label>
+        </div>
+        <input class="toggle-input questions__input" type="checkbox" value="question-5" id="question-5">
+        <div class="questions__content">
+          <span>Вы можете как самостоятельно привезти нам свой товар, так и мы можем организовать забор Вашего товара по Москве (Садовод, Любляно, Южные ворота и т.д.).</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="main-container">
+      <div class="contact__header">
+        <h2 class="title section__title">Остались вопросы? Cвяжитесь с нами!</h2>
+        <div class="contact__time">
+          <span>На связи ежедневно с 9:00 до 19:00</span>
+        </div>
+      </div>
+      <div class="contact__content">
+        <form action="" method="post" class="form contact__form">
+          <label class="contact__label">Имя</label>
+          <input class="contact__input" type="text" name="name"></input>
+          <label class="contact__label">Телефон | Telegram | WatsApp</label>
+          <div class="contact__swithcers">
+            <label class="contact__label-switcher contact__label-switcher-active" for="phone-switch">Телефон</label>
+            <label class="contact__label-switcher" for="telegram-switch">Telegram</label>
+            <label class="contact__label-switcher" for="watsapp-switch">WatsApp</label>
+          </div>
+          <input class="toggle-input" type="radio" name="switchers" id="phone-switch" checked></input>
+          <input type="tel" name="phone" placeholder="Телефон" class="contact__input contact__input-toggle"></input>
+          <input class="toggle-input" type="radio" name="switchers" id="telegram-switch"></input>
+          <input type="text" name="telegram" placeholder="Telegram" class="contact__input contact__input-toggle"></input>
+          <input class="toggle-input" type="radio" name="switchers" id="watsapp-switch"></input>
+          <input type="tel" name="watsapp" placeholder="WatsApp" class="contact__input contact__input-toggle"></input>
+          <label class="contact__label">Комментарий</label>
+          <textarea name="comment" class="contact__comment"></textarea>
+          <button type="submit" class="button contact__button">Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer id="contacts" class="footer">
+    <div class="main-container">
+      <div class="footer__header">
+        <div class="footer__title">
+          <img src="images/footer_logo.png" alt="логотип FF One" class="footer__logo"></img>
+          <h2 class="title title_ms">FULFILMENT ONE</h2>
+        </div>
+        <div class="footer__social">
+          <a href="https://t.me/fulfilment_one" class=""><img src="images/telegram.svg" class="footer__icon"></img></a>
+          <a href="https://wa.me/89017198217" class=""><img src="images/whatsapp.svg" class="footer__icon"></img></a>
+        </div>
+      </div>
+      <div class="footer__content">
+        <div class="footer__item">
+          <h3 class="title footer__content-title">Услуги</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Упаковка</li>
+              <li class="footer__list-item">Маркировка</li>
+              <li class="footer__list-item">Доставка</li>
+              <li class="footer__list-item">Хранение</li>
+            </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="title footer__content-title">Фулфилмент</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Wildberries</li>
+              <li class="footer__list-item">Ozon</li>
+              <li class="footer__list-item">Яндекс Маркет</li>
+            </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="title footer__content-title">Информация</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">О нас</li>
+              <li class="footer__list-item">Цены</li>
+              <li class="footer__list-item">Вопросы-ответы</li>
+              <li class="footer__list-item">Статьи</li>
+            </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="title footer__content-title">Контакты</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">+7 (499) 110-88-57</li>
+              <li class="footer__list-item">info@ff-one.ru</li>
+              <li class="footer__list-item">Пн-Вс с 9 до 19</li>
+              <li class="footer__list-item">г. Москва, Алтуфьевское шоссе, д.41</li>
+            </ul>
+      </div>
+    </div>
+  </footer>
+</body>
