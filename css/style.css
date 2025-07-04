@@ -396,6 +396,20 @@ p:last-child{
 
 }
 
+@media screen and (max-width: 376px){
+
+  .banner__content{
+    height: 50rem;
+  }
+
+  .banner__title{
+    padding-left: 4rem;
+    padding-top: 3.5rem;
+    width: 70%;
+    font-size: 3rem;
+  }
+}
+
 .marquee{
   display: flex;
   max-width: 300rem;
@@ -594,6 +608,48 @@ p:last-child{
   background-image: url("../images/operation_step_5.png");
 }
 
+@media screen and (max-width: 800px){
+
+  .operation__item{
+   width: 90%;
+   background-size: 60% 100%;
+   background-repeat: no-repeat;
+   background-position-x: 100%;
+  }
+
+  .operation__item-large{
+    background-size: auto 70%;
+    background-position: 95% 75%;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .operation__item{
+   background-size: 100% 100%;
+  }
+
+  .operation__item-large{
+    background-size: auto 45%;
+  }
+}
+
+@media screen and (max-width: 376px){
+
+  .operation__item-large{
+    background-size: auto 35%;
+  }
+
+}
+
+@media screen and (max-width: 326px){
+
+  .operation__item-large{
+    background-size: auto 25%;
+  }
+
+}
+
 .section__item-icon{
   width: 4rem;
   margin-bottom: 1.8rem;
@@ -602,6 +658,7 @@ p:last-child{
 .advantages__content{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .advantages__item{
@@ -623,9 +680,34 @@ p:last-child{
   background-image: url("../images/advantages_4.png");
 }
 
+@media screen and (max-width: 980px) and (min-width: 600px) {
+
+  .advantages__content{
+    justify-content: space-around;
+  }
+
+  .advantages__item{
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .advantages__content{
+    justify-content: center;
+  }
+
+  .advantages__item{
+    width: 80%;
+  }
+
+}
+
 .services__content{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .services__item{
@@ -643,6 +725,22 @@ p:last-child{
   background-image: url("../images/services_3.png");
 }
 
+@media screen and (max-width: 980px){
+
+  .services__content{
+    justify-content: center;
+  }
+
+  .services__item{
+    width: 80%;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    margin-bottom: 2rem;
+  }
+
+}
+
 .calculation__title{
   margin-bottom: 3rem;
   color: #2A326E;
@@ -651,6 +749,7 @@ p:last-child{
 .calculation__form{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .calculation__column-left{
@@ -736,6 +835,19 @@ p:last-child{
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 980px){
+
+  .calculation__column-left, .calculation__column-right{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .calculation__column-right{
+    justify-content: center;
+  }
+
 }
 
 .sales__content{
