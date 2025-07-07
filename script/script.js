@@ -52,6 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
      });
     });
 
+    sectionCallRequestSwithcer.addEventListener('click', () => {
+      sectionCallRequest.classList.toggle('call-request-active');
+    });
+
+
     buttonNavigationMobile.addEventListener('click', () => {
       sectionNavigationMobile.classList.toggle('navigation-mobile-active');
     });
