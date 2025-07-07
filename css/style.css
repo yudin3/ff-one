@@ -164,6 +164,7 @@ p:last-child{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -242,6 +243,28 @@ p:last-child{
   font-size: 1.5rem;
 }
 
+.header__sandwich-button{
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  width: 3rem;
+  height: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+
+.header__sandwich-button-inner{
+  width: 4rem;
+  height: 0.7rem;
+  background-color: #000000;
+  border-radius: 1rem;
+}
+
+
 @media screen and (max-width: 767px){
 
   .header__container{
@@ -262,6 +285,10 @@ p:last-child{
 
   .header__contacts-reversed{
     flex-direction: row-reverse;
+  }
+
+  .header__sandwich-button{
+    display: flex;
   }
 }
 
@@ -356,6 +383,13 @@ p:last-child{
   min-height: 6rem;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+  .banner__content{
+    height: 60rem;
+  }
+}
+
 @media screen and (max-width: 768px){
 
   .banner__content{
@@ -397,7 +431,8 @@ p:last-child{
 
 }
 
-@media screen and (max-width: 376px){
+
+@media screen and (max-width: 420px){
 
   .banner__content{
     height: 50rem;
@@ -506,13 +541,66 @@ p:last-child{
   width: 95%;
 }
 
-..call-request__container-opacity{
+.navigation-mobile{
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navigation-mobile-active{
+  display: block;
+}
+
+.navigation-mobile__container-opacity{
   width: 100%;
   height: 100%;
   background-color: gray;
-  opacity: 50%;
+  opacity: 90%;
   cursor: pointer;
 }
+
+.navigation-mobile__container-content{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 30%;
+  width: 70%;
+  height: 100vh;
+  background-color: #1e73f6;
+  padding: 3rem;
+}
+
+.mobile-menu{
+  width: 100%;
+  height: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.mobile-menu__item{
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.navigation-mobile__social{
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 
 .fulfilment{
   font-size: 2rem;
@@ -1159,16 +1247,12 @@ p:last-child{
 
 .contact{
   box-sizing: border-box;
-}
-
-/*.contact{
-  box-sizing: border-box;
   background-image: url(../images/consultant.png);
   background-size: 30% 100%;
   background-position-x: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
-}*/
+}
 
 .contact__content{
   padding-bottom: 3rem;
@@ -1241,7 +1325,12 @@ p:last-child{
   width: 25rem;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
+
+  .contact{
+    background-image: none;
+  }
+
   .contact__form{
     display: flex;
     flex-direction: column;
