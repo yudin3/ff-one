@@ -1,5 +1,6 @@
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 1201px){
@@ -505,6 +506,14 @@ p:last-child{
   width: 95%;
 }
 
+..call-request__container-opacity{
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 50%;
+  cursor: pointer;
+}
+
 .fulfilment{
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -937,8 +946,9 @@ p:last-child{
 }
 
 .tariffs__label{
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   width: 40%;
   padding: 2rem;
@@ -1009,6 +1019,37 @@ p:last-child{
   bottom: 2rem;
   font-size: 2rem;
   font-weight: 550;
+}
+
+@media screen and (max-width: 800px){
+
+  .tariffs__content{
+    justify-content: space-around;
+  }
+
+  .tariffs__item-main{
+    height: 12rem;
+    width: 90%;
+  }
+
+  .tariffs__item-additional{
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+
+  .tariffs__label{
+    font-size: 1.8rem;
+    width: 50%;
+  }
+
+  .tariffs__item-additional{
+    width: 90%;
+  }
+
+
 }
 
 .questions__item{
