@@ -119,9 +119,6 @@ p:last-child{
   margin: 0;
 }
 
-.title_l{
-  font-size: 3.2rem;
-}
 
 .title_m{
   font-size: 3rem;
@@ -291,6 +288,18 @@ p:last-child{
     display: flex;
   }
 }
+
+@media screen and (max-width: 400px){
+
+  .header__logo{
+    max-height: 4rem;
+    max-width: 6rem;
+    margin-right: 2rem;
+  }
+
+}
+
+
 
 .banner{
   background-color: #f2f5fa;
